@@ -1,0 +1,126 @@
+/* Reglages CSS généraux tablette */
+
+body
+{
+    width: auto;
+}
+
+/* Intro tablette */
+
+#intro
+{
+    width: auto;
+    margin: 30px;
+    text-align: center;
+}
+
+/* Filtre tablette */
+
+#filter {
+    flex-wrap: wrap;
+}
+
+#titrefiltre
+{
+    display: block;
+    width: 100%;
+
+}
+
+#filter .filtre-box
+{
+    margin: 0 10px 10px 0;
+}
+
+/* Infos */
+
+#infos
+{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Section hebergements tablette */
+
+#hebergements
+{
+    box-sizing: border-box;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+#hebergements-a-marseille
+{
+    width: calc(100% + 100px);
+    margin: 0;
+    background-color: white;
+}
+
+#liste-hebergement-marseille
+{
+    justify-content: space-around;
+}
+
+#liste-hebergement-marseille .card-hebergement
+{
+    width: 300px;
+    box-shadow: 5px 5px 20px #c6c6cd;
+}
+
+/* Section populaires tablette */
+
+#liste-populaires
+{
+    justify-content: center;
+}
+
+#populaires
+{
+    width: calc(100% + 100px);
+    margin: 0;
+    border-radius: 0;
+}
+
+/* Section activités tablette */
+
+#activités
+{
+    height: auto;
+}
+
+#liste-activités
+{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.colonne-duo, .colonne-solo
+{
+    width: 100%;
+    justify-content: flex-start;
+}
+
+#premier, #deuxieme, #troisieme, #quatrieme, #cinquieme, #sixieme
+{
+    height: 200px;
+    margin: 10px 0 10px 0;
+}
+
+#liste-activités div a 
+{
+    height: auto;
+}
+
+#activités .img-activités
+{
+    height: 150px;
+}
+
+/* Footer tablette */
+
+footer
+{
+    margin-top: 20px;
+    padding-top: 20px;
+}

@@ -1,0 +1,242 @@
+/* Reglages CSS généraux mobile */
+
+body
+{
+    max-width: 768px;
+    min-width: auto;
+}
+
+main
+{
+    margin: 0;
+}
+
+/* Header mobile */
+
+header
+{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header .logo
+{
+    align-self: center;
+}
+
+#nav-header 
+{
+    width: 100%;
+    padding: 0;
+}
+
+#liste-nav-header
+{
+    padding: 0;
+    text-align: center;
+}
+
+header #liste-nav-header li
+{
+    width: 100%;
+    border-top: none;
+    border-bottom: 3px solid #F2F2F2;
+    padding-bottom: 15px;
+    justify-content: center;
+    
+}
+
+header #liste-nav-header li:hover
+{
+    border-top: none;
+    border-bottom: 3px solid #0065FC;
+}
+
+/* Filtres */
+
+#filter {
+    flex-wrap: wrap;
+    padding-left: 25px;
+}
+
+h2#titrefiltre
+{
+    display: block;
+    width: 100%;
+    margin-left: 0;
+}
+
+#filter .filtre-box
+{
+    margin: 0 10px 10px 0;
+}
+
+
+/* Intro mobile */
+
+#intro
+{
+    width: auto;
+    margin: 30px;
+    text-align: center;
+}
+
+#titre-intro
+{
+    margin-bottom: 0;
+}
+
+/* Formulaire de recherche mobile */
+
+#formulaire
+{
+    width: auto;
+    justify-content: center;
+    margin: 30px;
+}
+
+#motrecherche::before
+{
+    font-family: FontAwesome;
+    content: "\f002";
+}
+
+button
+{
+    border-radius: 15px;
+    margin-left: -25px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+}
+
+/* Filtres mobiles */
+
+.boutonfiltre
+{
+    margin-bottom: 15px;
+}
+
+#blocfiltre 
+{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-top: -15px;
+}
+
+#titrefiltre
+{
+    margin-left: 20px;
+}
+
+/* Infos mobile */
+
+#infos
+{
+    padding: 0 15px 0 15px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#textinfos
+{
+    text-align: justify;
+}
+
+#iconinfos
+{
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-right: 15px;
+}
+
+/* Section hebergement mobile */
+
+#hebergements
+{
+    flex-direction: column-reverse;
+}
+
+#hebergements-a-marseille
+{
+    margin: 0;
+    border-radius: 0;
+    background-color: white;
+}
+
+/* Section Populaires mobile */
+
+#populaires
+{
+    margin: 0;
+    border-radius: 0;
+}
+
+#liste-hebergement-marseille .card-hebergement
+{
+    width: 100%;
+    margin: 5px 0 5px 0;
+    box-shadow: 5px 5px 20px #c6c6cd;
+}
+
+#liste-hebergement-marseille
+{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    flex-direction: column;
+}
+
+#liste-hebergement-marseille .description-card
+{
+    padding: 0 0 0 2%;
+}
+
+/* Section activités mobile */
+
+#liste-activités
+{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.colonne-duo, .colonne-solo
+{
+    width: 100%;
+    justify-content: flex-start;
+}
+
+#premier, #deuxieme, #troisieme, #quatrieme, #cinquieme, #sixieme
+{
+    height: 170px;
+    margin: 15px;
+}
+#liste-activités div a
+{
+    height: auto;
+}
+
+#activités .img-activités
+{
+    height: 120px;
+}
+
+#activités h1
+{
+    margin-left: 25px;
+}
+
+/* Footer mobile */ 
+
+footer
+{
+    flex-direction: column;
+}
+
+.liste-footer
+{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
